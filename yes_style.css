@@ -8,13 +8,42 @@ body {
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 150px;
+    font-size: 100px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }
+.liteh_text {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(142, 187, 255);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+a {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    background-color: #FFB6C1;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container {
+    text-align: center;
+}
+
 
 .gif_container {
     display: flex;
